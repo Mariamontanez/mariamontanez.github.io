@@ -1,0 +1,112 @@
+body {
+	background-color:#b3b3ff
+;
+	font-family:300;
+}
+h1 { color:#000066;
+font-family: 'Cormorant Garamond', serif;
+font-size: 60px;
+}
+
+
+/* COMMENNT TO NEVER FORGET 
+h1, h2, h3, h4 are tags or elements and I can use them to define general styling
+.class is for styling many elements to be the same. My <h3 class="differentcolor" will 
+allow me to create 1 class that is called .differentcolor and this will make any h1 with the class differentecolor obey this rule 
+#id for one single thing that I want to style different. Example <div id="container"> </div> to style the entire body.
+In this case it would be 
+<body>
+<div id="container">
+PAGE CONTENT GOES HERE
+</div>
+</body>
+
+In CSS
+#container { display: block; }
+
+*/
+
+p {
+	font-size:28px;
+	font-weight: 300,400;
+	line-height: 1.0
+}
+.lede {
+	font-size:32px;
+	font-weight: 300,400;
+	line-height: 1.0 ;
+}
+#byline {
+	color:#660033;
+	font-size:22px;
+	margin-left:30px;
+
+}
+#byline:hover {
+  border: 1px solid black;
+  background:rgba(0,0,0,.5);
+  color: white
+  margin-left:100px;
+}
+#caption {
+	color:#404040;
+	text-align:center;
+	font-size: 20px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.blockquote{
+	font-family: 'Shrikhand', cursive;
+	font-size:22px;
+	text-align: center;
+}
+.twitter-feed-container {
+	width: 400px;
+}
+
+section, 
+footer {
+  padding: 30px 75px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* THIS CAME LATER */
+
+.contenido{
+	margin: 5%;
+		}
+
+
+#principal {
+	background-color: rgba(0,0,0,.5);
+	color:white;
+	padding: 50px;
+	text-align: center;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.foto {
+	height: 450px;
+	width: 700px;
+	align:center;
+}
+
+
+.block{
+	float: left;
+	margin-right: 30px;
+}
+
+#footer {
+	margin-left: 10px;
+}
