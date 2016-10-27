@@ -1,8 +1,8 @@
 body {
-	background-color:#b3b3ff
-;
+	background-color:#b3b3ff;
 	font-family:300;
 }
+
 h1 { color:#000066;
 font-family: 'Cormorant Garamond', serif;
 font-size: 60px;
@@ -55,11 +55,11 @@ p {
 
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
-.blockquote{
+.blockquote {
 	font-family: 'Shrikhand', cursive;
 	font-size:22px;
 	text-align: center;
